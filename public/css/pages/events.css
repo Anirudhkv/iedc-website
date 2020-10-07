@@ -7,10 +7,13 @@
 /*.hea {
   color: #808080;
   padding: 20px 0px 50px 20px;
+}*/
+.frameColor {
+  background: rgba(230, 230, 230, 0.2);
 }
 .head {
   color: #e60000;
-}*/
+}
 .top {
   display: flex;
   justify-content: space-between;
