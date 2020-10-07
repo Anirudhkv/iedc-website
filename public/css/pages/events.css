@@ -21,6 +21,8 @@
   padding-top: 30px;
   color: #e60000;
   font-weight: 500;
+  font-style: bold;
+
   font: normal normal medium 100px/100px Axiforma;
 }
 .top {
@@ -51,6 +53,7 @@
 }
 .iedc {
   flex: 2;
+  font-weight: 450;
 }
 .iedcText {
   letter-spacing: 0px;
@@ -64,9 +67,7 @@
   width: 330px;
   height: 100px;
 }
-.rowf {
-  border-top: 1px ridge;
-}
+
 /* .backImage {
   padding-top: 20px;
 } */
