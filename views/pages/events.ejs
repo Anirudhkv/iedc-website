@@ -15,10 +15,11 @@
     <div class="top">
       <div class="backhome">
         <a href="/home">
-          <i
+          <!--i
             class="fa fa-arrow-left"
             style="font-size: 20px; opacity: 70%; color: #707070"
-          ></i>
+          ></i-->
+          <img class="backImage" src="/images/arrow.png" />
         </a>
         <a class="backhometext" href="/home"> Back to Home</a>
       </div>
@@ -26,10 +27,7 @@
         <p class="iedcText" style="font-size: 50px">Events</p>
       </div>
     </div>
-    <hr style="border: 1px solid #7070701a" />
-
-    <% event.data.forEach(function(obj) { %>
-
+    <% i=1 %> <% event.data.forEach(function(obj) { %> <% if(i%2 == 1){ %>
     <div class="row row-content align-left">
       <div class="col-12 col-sm-4 col-md-3">
         <h3 class="head"><%= obj.name %></h3>
@@ -38,7 +36,15 @@
         %>,Image=<%= obj.photo %>
       </div>
     </div>
-
-    <% }); %> <%- include('../partials/events/eventsScripts') %>
+    <% } else{ %>
+    <div class="row row-contents align-left">
+      <div class="col-12 col-sm-4 col-md-3">
+        <h3 class="head"><%= obj.name %></h3>
+        <br />
+        description= <%= obj.description %>,Event type=<%= obj.eventType
+        %>,Image=<%= obj.photo %>
+      </div>
+    </div>
+    <% };i++; %> <% }); %> <%- include('../partials/events/eventsScripts') %>
   </body>
 </html>
