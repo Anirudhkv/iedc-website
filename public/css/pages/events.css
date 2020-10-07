@@ -33,6 +33,7 @@
 .backhome {
   flex: 1;
   justify-content: flex-start;
+
   top: 201px;
   left: 104px;
   width: 246px;
@@ -61,3 +62,9 @@
   width: 330px;
   height: 100px;
 }
+.rowf {
+  border-top: 1px ridge;
+}
+/* .backImage {
+  padding-top: 20px;
+} */
