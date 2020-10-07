@@ -9,9 +9,25 @@
 
   <body>
     <%- include('../partials/navbar/navbar') %>
-    <div>
+    <!--<div>
       <h1 class="hea" style="text-align: center">Events</h1>
+    </div>-->
+    <div class="top">
+      <div class="backhome">
+        <a href="/home">
+          <i
+            class="fa fa-arrow-left"
+            style="font-size: 20px; opacity: 70%; color: #707070"
+          ></i>
+        </a>
+        <a class="backhometext" href="/home"> Back to Home</a>
+      </div>
+      <div class="iedc">
+        <p class="iedcText" style="font-size: 50px">Events</p>
+      </div>
     </div>
+    <hr style="border: 1px solid #7070701a" />
+
     <% event.data.forEach(function(obj) { %>
 
     <div class="row row-content align-left">
