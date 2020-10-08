@@ -6,13 +6,10 @@
   font-weight: bold;
   color: #7d7d7d;
 }
-.contentPosition {
-  position: relative;
-}
 .backtoptext {
   position: absolute;
-  top: 6px;
-  left: 404px;
+  top: 1631px;
+  right: 82px;
   font-family: "Axiforma";
   font-weight: light;
   font-size: 20px;
@@ -23,7 +20,7 @@
 .topImage {
   position: absolute;
   height: 20px;
-  top: 11px;
-  left: 511px;
+  top: 1636px;
+  right: 62px;
   transform: rotate(90deg);
 }
