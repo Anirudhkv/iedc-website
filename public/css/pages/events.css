@@ -45,8 +45,9 @@
 }
 .backImage {
   position: absolute;
-  top: 139px;
-  left: 46px;
+  height: 20px;
+  top: 142px;
+  left: 48px;
 }
 .backhometext {
   font-family: "Axiforma";

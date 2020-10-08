@@ -3,5 +3,9 @@
 <script>
   $(document).ready(function () {
     $(".sidenav").sidenav();
+
+    $(".contentPosition").click(function () {
+      $("html, body").animate({ scrollTop: 0 }, 600);
+    });
   });
 </script>
